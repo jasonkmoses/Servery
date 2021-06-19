@@ -23,7 +23,7 @@ app.use(
 }));
 app.disable('etag');
 mongoose.set('useNewUrlParser', true);
-const uri = "mongodb+srv://Jason:Harmonymane7@cluster0-ztkec.mongodb.net/UserInfo?retryWrites=true&w=majority";
+const uri = "<cluster-uri-here>";
 mongoose.connect(uri || "/localhost:3000", {
       useNewUrlParser: true,
       useCreateIndex: true,
